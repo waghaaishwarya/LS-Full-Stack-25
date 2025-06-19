@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Journey @ IITB</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="sky-bg"></div>
+
+  <header>
+    <h1>my journey @ iitb</h1>
+  </header>
+
+  <main>
+    <div class="intro-text">
+    <p>
+    Hi! I’m Aaishwarya and this is a little scrapbook of my time at IIT Bombay.
+     From late-night wingie adventures to the magic of monsoon clouds — here’s a peek into my memories, learnings, and some of my favorite moments 💙
+    </p>
+    </div>
+    <div class="year-select" id="yearSelect">
+      <div class="year-card" onclick="showYear('freshman')">
+        <h2 style="text-align: center;">freshman year</h2>
+      </div>
+      <div class="year-card" onclick="showYear('sophomore')">
+        <h2 style="text-align: center;">sophomore year</h2>
+      </div>
+    </div>
+
+    <section id="freshman" class="year-section hidden">
+      <h2>the freshman year</h2>
+      <div class="memory">
+        <h3>going to sameer hill</h3>
+        <p>this trek was a hell lot
+             emotional ride. my wingies randomly asked me tag along at 1pm, just 4 hrs prior going. 
+            i technically didn't slept that day! it was first
+             going for all of us and it was pitch dark. funny part is, that a drunkard lead our way to top.
+            i still don't understand how and why we trusted him. but it was all worth-doing, to see the sunrise
+            of that day. it was <del> scary</del> amazing experience with breathtaking view </p>
+        <div class="photo-grid">
+    <img src="images/sm1.jpg" >
+    <img src="images/sm2.jpg" >
+    
+       </div>
+      </div>
+      <div class="memory">
+        <h3>mood indigo</h3>
+        <p>1st time attended a concert. absolutely loved it! even though the ambience wasnt that great, 
+            made a core memory</p>
+            <div class="photo-grid">
+    <img src="images/mi.jpg" >
+    
+    
+       </div>
+      </div>
+      <div class="memory">
+        <h3>marine drive</h3>
+        <p>first time going out with wingies. we went on new years' day!
+            it was sunday, so there was a megablock. taking a cab was too expensive,
+            so we just decided to go with local. for we needed to go mulund, so we got on a bus. 
+            on reaching the station, we found a train going to csmt. till we go to platform, it started moving.
+            so we got on a moving train. this was my first time doing such train, it was terrifing but 
+            yet thrilling too. overall had fun, even didn't explore much! 
+            watching sunset on marine drive was the best part ❤️</p>
+            <div class="photo-grid">
+    <img src="images/md1.jpg" >
+    <img src="images/md2.jpg" >
+    <img src="images/md3.jpg" >
+    <img src="images/md4.jpg" >
+    <img src="images/md5.jpg" >
+    <img src="images/md6.jpg" >
+    
+  
+       </div>
+      </div>
+      
+      <button class="back-btn" onclick="goBack()">← Back</button>
+    </section>
+
+    <section id="sophomore" class="year-section hidden">
+      <h2>the sophomore year</h2>
+      <div class="memory">
+        <h3>air lab</h3>
+        <p> really had soo much fun in this lab <!---->, worked with people i didnt knew and got to know the 
+            instruments. absolutely loved this lab.. i wish i could go back in time </p>
+            <div class="photo-grid">
+    <img src="images/air.jpg" >
+           </div>
+      </div>
+      <div class="memory">
+        <h3>clouds, sunsets</h3>
+        <p>honestly this describes me.. i am always taking pictures of clouds and sunsets. i always feel more 
+            grounded and connected to nature this way!  🌥️</p>
+            <div class="photo-grid">
+    <img src="images/sc1.jpg" >
+    <img src="images/sc2.jpg" >
+    <img src="images/sc3.jpg" >
+    <img src="images/sc4.jpg" >
+    <img src="images/sc5.jpg" >
+    <img src="images/sc6.jpg" >
+       </div>
+      </div>
+      <button class="back-btn" onclick="goBack()">← Back</button>
+    </section>
+  </main>
+  
+
+
+  <footer>
+    <p>© 2025 Aaishwarya Wagh | <a href="https://www.iitb.ac.in">IITB Website</a></p>
+  </footer>
+
+  <audio id="bg-music" autoplay loop>
+  <source src="music/wifty_ost.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<button id="musicToggle">🔊 Play Music</button>
+
+</body>
+</html>
