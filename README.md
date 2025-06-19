@@ -1,1 +1,1 @@
-# LS-Full-Stack-25
+## LS Full Stack Pro: Assignment 1
