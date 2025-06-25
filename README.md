@@ -1,1 +1,1 @@
-## LS Full Stack Pro: Assignment 1
+## LS Full Stack Pro: Assignments
